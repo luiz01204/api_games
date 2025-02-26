@@ -57,19 +57,6 @@ A API possui um CRUD básico para games:
 | PUT     | /games/:id   | Edita um game existente       |
 | DELETE  | /games/:id   | Remove um game do banco      |
 
-## Exemplo de Uso
-
-### Criar um novo game:
-```sh
-curl -X POST http://localhost:3000/games \
-     -H "Content-Type: application/json" \
-     -d '{"title": "FIFA 24", "platform": "PS5"}'
-```
-
-### Listar todos os games:
-```sh
-curl -X GET http://localhost:3000/games
-```
 
 ## Contribuição
 
